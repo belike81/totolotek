@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Totolotek::VERSION
   spec.authors       = ["Tomasz Grabowski"]
   spec.email         = ["belike81@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{Generate random numbers for a polish lotto game}
+  spec.summary       = %q{Random number generator for Totolotek}
   spec.homepage      = ""
   spec.license       = "MIT"
 
@@ -20,4 +20,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
+  spec.add_development_dependency "rspec"
 end
