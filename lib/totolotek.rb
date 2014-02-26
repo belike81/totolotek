@@ -1,5 +1,5 @@
 require "totolotek/version"
+require "totolotek/lottery"
 
 module Totolotek
-  # Your code goes here...
 end
