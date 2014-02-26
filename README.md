@@ -21,7 +21,7 @@ Or install it yourself as:
 ``` ruby
 require "totolotek"
 
-Totolotek::Lottery.draw # => [3, 13, 16, 22, 33, 42]
+Totolotek::Lottery.new.draw # => [3, 13, 16, 22, 33, 42]
 ```
 
 ## Contributing
