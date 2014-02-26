@@ -1,6 +1,6 @@
 # Totolotek
 
-TODO: Write a gem description
+Totolotek is a gem to generate random numbers (in pairs of 6) for a Polish lotto game.
 
 ## Installation
 
@@ -18,7 +18,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+``` ruby
+require "totolotek"
+
+Totolotek::Lottery.draw # => [3, 13, 16, 22, 33, 42]
+```
 
 ## Contributing
 
